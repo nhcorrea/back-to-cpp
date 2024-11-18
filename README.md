@@ -1,1 +1,1 @@
-Repositório de treinamento de cpp
+Repositório de prática (voltar ao C++)
