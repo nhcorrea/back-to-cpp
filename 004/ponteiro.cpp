@@ -20,15 +20,23 @@ int main(){
     // cout << "Valor de pointer: " << *pointer << " " << pointer << endl;
     // cout << "Valor de X: " << x << endl;
 
-    int number;
+    // int number;
 
-    cout << "Digite um nr: " << endl;
-    cin >> number;
+    // cout << "Digite um nr: " << endl;
+    // cin >> number;
 
-    cout << "Number " << number << endl;
+    // cout << "Number " << number << endl;
 
-    square(&number);
-    cout << "Square result " << number << endl;
+    // square(&number);
+    // cout << "Square result " << number << endl;
+
+    double x = 10;
+    double *pX = &x;
+
+    cout << "x -> " << x << endl;
+    cout << "&x -> " << &x << endl;
+    cout << "pX -> " << pX << endl;
+
 
     return 0;
 }
